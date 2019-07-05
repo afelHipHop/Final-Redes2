@@ -1,0 +1,13 @@
+Salto,T1,T2,T3,Direccion u organizacion,IP
+1,78,101,10,192.168.0.1,192.168.0.1
+2,4,6,3,10.32.0.57,10.32.0.57
+3,12,7,10,10.5.4.42,10.5.4.42
+4,66,67,68,ae15.miami19.mia.seabone.net,89.221.41.14
+5,76,60,65,ntt-verio.miami19.mia.seabone.net,89.221.41.125
+6,810,440,251,ae-4.r05.miamfl02.us.bb.gin.ntt.net,129.250.3.40
+7,110,72,160,ae-8.r20.miamfl02.us.bb.gin.ntt.net,129.250.3.149
+8,130,210,336,ae-4.r23.asbnva02.us.bb.gin.ntt.net,129.250.2.86
+9,362,206,*,ae-2.r05.asbnva02.us.bb.gin.ntt.net,129.250.2.22
+10,90,265,102,ae-0.a03.asbnva02.us.bb.gin.ntt.net,129.250.5.194
+11,113,156,267,xe-0-0-28-0.a03.asbnva02.us.ce.gin.ntt.net,129.250.204.190
+12,195,117,232,text-lb.eqiad.wikimedia.org,208.80.154.224
