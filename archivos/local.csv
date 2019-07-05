@@ -1,0 +1,71 @@
+GOOGLE
+Traza a la direccion,www.google.com,[172.217.28.100]
+Salto,Tiempo promedio,Direccion u organizacion,IP
+  1,80 ms   100 ms     1 ms,192.168.0.1,[192.168.0.1]
+  2,4 ms     5 ms     4 ms,10.32.0.57,[10.32.0.57]
+  3,9 ms     5 ms     6 ms,10.5.2.22,[10.5.2.22]
+  4,12 ms    14 ms    11 ms,72.14.218.226,[72.14.218.226]
+  5,92 ms    98 ms   202 ms,108.170.253.209,[108.170.253.209]
+  6,679 ms   269 ms   280 ms,74.125.252.61,[108.170.253.209]
+  7,4 ms    11 ms     6 ms,bog02s07-in-f4.1e100.net,[172.217.28.100]
+
+Traza completa.
+
+Traza a la direccion,youtube-ui.l.google.com,[172.217.30.206]
+Salto,Tiempo promedio,Direccion u organizacion,IP
+  1,83 ms   100 ms     7 ms,192.168.0.1,[192.168.0.1]
+  2,10 ms     4 ms    17 ms,10.32.0.57,[10.32.0.57]
+  3,217 ms    11 ms    56 ms,10.5.2.22,[10.5.2.22]
+  4,5 ms    20 ms     4 ms,72.14.218.226,[72.14.218.226]
+  5,52 ms   101 ms    99 ms,108.170.253.209,[108.170.253.209]
+  6,47 ms    97 ms   331 ms,216.239.56.235,[216.239.56.235]
+  7,86 ms   100 ms   108 ms,bog02s08-in-f14.1e100.net,[172.217.30.206]
+
+Traza completa.
+ 
+Traza a la direccion,www.facebook.com,[157.240.6.35]
+Salto,Tiempo promedio,Direccion u organizacion,IP
+  1,113 ms   112 ms    36 ms,192.168.0.1,[192.168.0.1]
+  2,171 ms    98 ms   114 ms,10.32.0.57,[10.32.0.57]
+  3,311 ms    83 ms   653 ms,10.5.4.42,[10.5.4.42]
+  4,88 ms   111 ms    65 ms,ae37.br03.bog1.tfbnw.net,[157.240.65.162]
+  5,223 ms    97 ms    42 ms,po101.psw03.bog1.tfbnw.net,[157.240.40.105]
+  6,189 ms    73 ms   111 ms,173.252.67.105,[173.252.67.105]
+  7,*       49 ms   101 ms,edge-star-mini-shv-01-bog1.facebook.com,[157.240.6.35]
+
+Traza completa.
+
+Traza a la direccion,dyna.wikimedia.org,[208.80.154.224]
+Salto,Tiempo promedio,Direccion u organizacion,IP
+  1,78 ms   101 ms    10 ms,192.168.0.1,[192.168.0.1]
+  2,4 ms     6 ms     3 ms,10.32.0.57,[10.32.0.57]
+  3,12 ms     7 ms    10 ms  10.5.4.42 [10.5.4.42]
+  4,66 ms    67 ms    68 ms,ae15.miami19.mia.seabone.net,[89.221.41.14]
+  5,76 ms    60 ms    65 ms,ntt-verio.miami19.mia.seabone.net,[89.221.41.125]
+  6,810 ms   440 ms   251 ms,ae-4.r05.miamfl02.us.bb.gin.ntt.net,[129.250.3.40]
+  7,110 ms    72 ms   160 ms,ae-8.r20.miamfl02.us.bb.gin.ntt.net,[129.250.3.149]
+  8,130 ms   210 ms   336 ms,ae-4.r23.asbnva02.us.bb.gin.ntt.net,[129.250.2.86]
+  9,362 ms   206 ms     *,ae-2.r05.asbnva02.us.bb.gin.ntt.net,[129.250.2.22]
+ 10,90 ms   265 ms   102 ms,ae-0.a03.asbnva02.us.bb.gin.ntt.net,[129.250.5.194]
+ 11,113 ms   156 ms   267 ms,xe-0-0-28-0.a03.asbnva02.us.ce.gin.ntt.net,[129.250.204.190]
+ 12,195 ms   117 ms   232 ms,text-lb.eqiad.wikimedia.org,[208.80.154.224]
+
+Traza completa.
+
+Traza a la direccion,d3ag4hukkh62yn.cloudfront.net,[13.32.84.210]
+Salto,Tiempo promedio,Direccion u organizacion,IP
+  1,22 ms    42 ms     1 ms,192.168.0.1,[192.168.0.1]
+  2,252 ms   439 ms   345 ms,10.32.0.57,[10.32.0.57]
+  3,256 ms   396 ms   213 ms,10.5.4.42,[10.5.4.42]
+  4,450 ms   588 ms   187 ms,xe0-3-0.miami15.mia.seabone.net,[89.221.41.38]
+  5,136 ms    77 ms    82 ms,amazon.miami15.mia.seabone.net,[89.221.41.183]
+  6,*,*,*
+  7,*,*,*
+  8,*,*,*
+  9,*,*,*
+ 10,*,*,*
+ 11,*,*,*
+ 12,*,*,*
+ 13,98 ms    71 ms    77 ms,server-13-32-84-210.mia3.r.cloudfront.net,[13.32.84.210]
+
+Traza completa.

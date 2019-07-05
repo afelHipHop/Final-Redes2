@@ -1,0 +1,9 @@
+URL,,www.google.com,
+Salto,Tiempo promedio,Direccion u organizacion,IP
+1,80 ms 100 ms 1 ms,192.168.0.1,[192.168.0.1]
+2,4 ms 5 ms 4 ms,10.32.0.57,[10.32.0.57]
+3,9 ms 5 ms 6 ms,10.5.2.22,[10.5.2.22]
+4,12 ms 14 ms 11 ms,,72.14.218.226
+5,92 ms 98 ms 202 ms,,108.170.253.209
+6,679 ms 269 ms 280 ms,,74.125.252.61
+7,4 ms 11 ms 6 ms,bog02s07-in-f4.1e100.net,[172.217.28.100]

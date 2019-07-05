@@ -1,0 +1,74 @@
+Google
+Tracing the route to IP node (172.217.0.36)
+Salto,Tiempo promedio,Direccion u organizacion,IP
+
+  1,<1 ms   <1 ms   <1 ms, ,196.60.8.166 
+  2,159 ms  160 ms  158 ms, ,172.253.67.159 
+  3,162 ms  159 ms  161 ms, ,216.239.59.5 
+  4,236 ms  230 ms  225 ms, ,172.253.65.174 
+  5,242 ms  242 ms  256 ms, ,216.239.57.136 
+  6,253 ms  253 ms  255 ms, ,209.85.143.103 
+  7,262 ms  262 ms  262 ms, ,216.239.47.250 
+  8,288 ms  286 ms  320 ms, ,209.85.248.126 
+  9,289 ms  287 ms  288 ms, ,72.14.237.146 
+ 10,287 ms  287 ms  288 ms, ,108.170.242.241 
+ 11,288 ms  287 ms  287 ms, ,209.85.251.9 
+ 12,285 ms  285 ms  285 ms, ,172.217.0.36 
+
+YOUTUBE
+Tracing the route to IP node (216.58.195.78)
+Salto,Tiempo promedio,Direccion u organizacion,IP
+  1,<1 ms    6 ms    1 ms, ,196.60.8.166 
+  2,158 ms  161 ms  158 ms, ,172.253.67.159 
+  3,158 ms  158 ms  159 ms, ,216.239.59.5 
+  4,228 ms  225 ms  225 ms, ,172.253.65.174 
+  5,242 ms  247 ms  248 ms, ,216.239.57.136 
+  6,283 ms  253 ms  253 ms, ,209.85.143.103 
+  7,262 ms  263 ms  262 ms, ,216.239.47.250 
+  8,287 ms  292 ms  287 ms, ,209.85.248.126 
+  9,287 ms  287 ms  287 ms, ,72.14.237.146 
+ 10,289 ms  286 ms  288 ms, ,108.170.242.241 
+ 11,292 ms  285 ms  285 ms, ,72.14.239.97 
+ 12,285 ms  294 ms  299 ms, ,216.58.195.78 
+
+
+FACEBOOK
+Tracing the route to IP node (157.240.22.35)
+Salto,Tiempo promedio,Direccion u organizacion,IP
+  1,157 ms  156 ms  156 ms, ,184.104.192.113 
+  2,223 ms  223 ms  223 ms, ,72.52.92.166 
+  3,286 ms  283 ms  283 ms, ,184.105.81.218 
+  4,*,*,*
+  5,284 ms  284 ms  285 ms, ,129.134.38.32 
+  6,285 ms  285 ms  297 ms, ,157.240.48.19 
+  7,300 ms  300 ms  298 ms, ,157.240.38.183 
+  8,298 ms  300 ms  303 ms, ,157.240.22.35 
+
+
+WIKIPEDIA
+Tracing the route to IP node (198.35.26.96)
+Salto,Tiempo promedio,Direccion u organizacion,IP
+  1,156 ms  169 ms  157 ms, ,184.104.192.113 
+  2,230 ms  229 ms  223 ms, ,72.52.92.166 
+  3,283 ms  283 ms  283 ms, ,184.105.81.218 
+  4,284 ms  290 ms  284 ms, ,72.52.92.158 
+  5,334 ms  286 ms  294 ms, ,198.32.176.214 
+  6,287 ms  287 ms  286 ms, ,198.35.26.96 
+
+
+AMAZON
+Tracing the route to IP node (143.204.132.173)
+Salto,Tiempo promedio,Direccion u organizacion,IP
+  1,160 ms  156 ms  156 ms, ,184.104.192.113 
+  2,223 ms  227 ms  224 ms, ,72.52.92.166 
+  3,283 ms  283 ms  283 ms, ,184.105.81.218 
+  4,284 ms  283 ms  283 ms, ,206.223.116.177 
+  5,292 ms  304 ms  295 ms, ,52.93.70.194 
+  6,298 ms  299 ms  291 ms, ,52.93.47.115 
+  7,*,*,* 
+  8,*,*,*
+  9,*,*,*
+ 10,*,*,*
+ 11,*,*,*
+ 12,285 ms  294 ms  299 ms, ,143.204.132.173 
+
