@@ -6,10 +6,7 @@ function leerArchivo(e) {
     }
     var lector = new FileReader();
     lector.onload = function(e) {
-      var contenido = e.target.result;
-      var prueba = lector.result.split(/,|\r\n/);
-      successFunction(lector);
-      console.log(prueba);
+      mostrarDatos(lector);
       //mostrarContenido(prueba,'contenido-archivo');
     };
     lector.readAsText(archivo);
@@ -20,39 +17,65 @@ function leerArchivo(e) {
     elemento.innerHTML = contenido;
   }
 
-  function successFunction(data) {
-    var allRows = data.result.split(/\r?\n|\r/);
-    var table = '<table>';
-    for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
-      if (singleRow === 0||singleRow===1) {
-        table += '<thead>';
-        table += '<tr>';
+  function mostrarDatos(data) {
+    var archivo = data.result.split(/\r?\n|\r/);
+    var saltos = new Array(archivo.length-1);
+    var tiempos= new Array(archivo.length-1);
+    var organizaciones= new Array(archivo.length-1);
+    var ips= new Array(archivo.length-1);
+    var i=-1;
+    var tabla = '<table>';
+    for (var fila = 0; fila < archivo.length; fila++) {
+      if (fila === 0) {
+        tabla += '<thead>';
+        tabla += '<tr>';
       } else {
-        table += '<tr>';
+        tabla += '<tr>';
       }
-      var rowCells = allRows[singleRow].split(',');
-      for (var rowCell = 0; rowCell < rowCells.length; rowCell++) {
-        if (singleRow === 0||singleRow===1) {
-          table += '<th>';
-          table += rowCells[rowCell];
-          table += '</th>';
+      var datos = archivo[fila].split(',');
+      for (var dato = 0; dato < datos.length; dato++) {
+        if (fila === 0) {
+          tabla += '<th>';
+          tabla += datos[dato];
+          tabla += '</th>';
         } else {
-          table += '<td>';
-          table += rowCells[rowCell];
-          table += '</td>';
+          tabla += '<td>';
+          tabla += datos[dato];
+          tabla += '</td>';
+          if(dato===0)
+            saltos[i]=datos[dato];
+          else{
+            if(dato===1)
+              tiempos[i]=datos[dato];
+            else{
+              if(dato===2)
+                organizaciones[i]=datos[dato];
+              else
+                ips[i]=datos[dato];
+            }
+          }
         }
       }
-      if (singleRow === 0||singleRow===1) {
-        table += '</tr>';
-        table += '</thead>';
-        table += '<tbody>';
+      i++;
+      if (fila === 0) {
+        tabla += '</tr>';
+        tabla += '</thead>';
+        tabla += '<tbody>';
       } else {
-        table += '</tr>';
+        tabla += '</tr>';
       }
     } 
-    table += '</tbody>';
-    table += '</table>';
-    mostrarContenido(table,'tabla')
+    tabla += '</tbody>';
+    tabla += '</table>';
+    mostrarContenido(tabla,'tabla')
+    console.log(saltos)
+//    console.log(saltos.length)
+    console.log(organizaciones)
+//    console.log(organizaciones.length)
+    console.log(tiempos)
+//    console.log(tiempos.length)
+    console.log(ips)
+//    console.log(ips.length)
   }
   
   document.getElementById('file-input').addEventListener('change', leerArchivo, false);
